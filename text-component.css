@@ -1,0 +1,1757 @@
+.PagedTextHTML__pagedTextHtml {
+	overflow-y: auto;
+	position: absolute;
+	height: calc(100% - 71px);
+	padding: 0.2rem 3rem;
+	word-break: break-word;
+	width: 100%;
+	outline: unset;
+	left: 0;
+}
+.PagedTextHTML__pagedTextHtml::-webkit-scrollbar {
+	display: none;
+}
+.PagedTextHTML__pagedTextHtml .PagedTextHTML__activeMarkerHit {
+	text-shadow: 1px 1px 2px;
+}
+.PagedTextHTML__pagedTextHtml div[data-num]:before,
+.PagedTextHTML__pagedTextHtml p[data-num]:before {
+	content: attr(data-num) ' ';
+}
+.PagedTextHTML__pagedTextHtml div[data-num] > :first-child {
+	display: inline;
+}
+.PagedTextHTML__pagedTextHtml div[data-num] > :first-child:after {
+	content: '';
+	display: block;
+	margin-bottom: 1em;
+}
+.PagedTextHTML__pagedTextHtml .PagedTextHTML__filteredMarkAtTop {
+	border-top: 2px dotted #a6060b;
+}
+.PagedTextHTML__pagedTextHtml .PagedTextHTML__filteredMarkAtBottom {
+	border-bottom: 2px dotted #a6060b;
+}
+.PagedTextHTML__pagedTextHtml .PagedTextHTML__page {
+	display: inherit;
+}
+.pagedTextFiltered > div table {
+	position: relative;
+}
+.pagedTextFiltered
+	> div
+	.markersIn
+	:not(.markersIn):not([data-type='underline']):not(a):not(abbr):not(acronym):not(b):not(bdi):not(bdo):not(bdr):not(big):not(cite):not(code):not(data):not(del):not(dfn):not(em):not(embed):not(i):not(img):not(ins):not(kbd):not(label):not(map):not(mark):not(meter):not(object):not(output):not(picture):not(progress):not(q):not(ruby):not(s):not(samp):not(select):not(slot):not(small):not(span):not(strong):not(sub):not(sup):not(svg):not(template):not(time):not(tt):not(var):not(u) {
+	height: 0;
+	visibility: collapse;
+	margin-bottom: 0;
+	position: relative;
+	overflow: hidden;
+}
+.pagedTextFiltered
+	> div
+	.markersIn
+	table:not(.markersIn):not([data-type='underline']):not(a):not(abbr):not(acronym):not(b):not(bdi):not(bdo):not(bdr):not(big):not(cite):not(code):not(data):not(del):not(dfn):not(em):not(embed):not(i):not(img):not(ins):not(kbd):not(label):not(map):not(mark):not(meter):not(object):not(output):not(picture):not(progress):not(q):not(ruby):not(s):not(samp):not(select):not(slot):not(small):not(span):not(strong):not(sub):not(sup):not(svg):not(template):not(time):not(tt):not(var):not(u),
+.pagedTextFiltered
+	> div
+	.markersIn
+	table:not(.markersIn):not([data-type='underline']):not(a):not(abbr):not(acronym):not(b):not(bdi):not(bdo):not(bdr):not(big):not(cite):not(code):not(data):not(del):not(dfn):not(em):not(embed):not(i):not(img):not(ins):not(kbd):not(label):not(map):not(mark):not(meter):not(object):not(output):not(picture):not(progress):not(q):not(ruby):not(s):not(samp):not(select):not(slot):not(small):not(span):not(strong):not(sub):not(sup):not(svg):not(template):not(time):not(tt):not(var):not(u)
+	td {
+	border: unset;
+}
+.pagedTextFiltered > div .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.pagedTextFiltered > div :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: 2px dotted #a6060b;
+}
+.pagedTextFiltered > div .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.pagedTextFiltered > div .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: 2px !important;
+	position: relative;
+}
+.pagedTextFiltered > div .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.pagedTextFiltered > div .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: 2px dotted #a6060b;
+	visibility: visible;
+	content: '';
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+.hide-mA span.mA {
+	text-shadow: none;
+}
+.hide-mA a.mA,
+.hide-mA span.mA {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mA a.mA {
+	width: 0 !important;
+	display: none;
+}
+p.mA {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mA .pagedTextFiltered .mA_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mA .pagedTextFiltered table.mA_In,
+.hide-mA .pagedTextFiltered table.mA_In td {
+	border: unset;
+}
+.expand-mA .pagedTextFiltered > div .mA_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mA .pagedTextFiltered > div table.mA_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mA .pagedTextFiltered > div table.mA_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mA .pagedTextFiltered > div table.mA_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mA .pagedTextFiltered > div table.mA_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mA .pagedTextFiltered > div table.mA_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mA .pagedTextFiltered > div table.mA_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mA .pagedTextFiltered > div table.mA_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mA .pagedTextFiltered > div p.mA_In {
+	margin-bottom: 1em !important;
+}
+.hide-mB span.mB {
+	text-shadow: none;
+}
+.hide-mB a.mB,
+.hide-mB span.mB {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mB a.mB {
+	width: 0 !important;
+	display: none;
+}
+p.mB {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mB .pagedTextFiltered .mB_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mB .pagedTextFiltered table.mB_In,
+.hide-mB .pagedTextFiltered table.mB_In td {
+	border: unset;
+}
+.expand-mB .pagedTextFiltered > div .mB_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mB .pagedTextFiltered > div table.mB_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mB .pagedTextFiltered > div table.mB_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mB .pagedTextFiltered > div table.mB_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mB .pagedTextFiltered > div table.mB_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mB .pagedTextFiltered > div table.mB_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mB .pagedTextFiltered > div table.mB_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mB .pagedTextFiltered > div table.mB_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mB .pagedTextFiltered > div p.mB_In {
+	margin-bottom: 1em !important;
+}
+.hide-mC span.mC {
+	text-shadow: none;
+}
+.hide-mC a.mC,
+.hide-mC span.mC {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mC a.mC {
+	width: 0 !important;
+	display: none;
+}
+p.mC {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mC .pagedTextFiltered .mC_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mC .pagedTextFiltered table.mC_In,
+.hide-mC .pagedTextFiltered table.mC_In td {
+	border: unset;
+}
+.expand-mC .pagedTextFiltered > div .mC_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mC .pagedTextFiltered > div table.mC_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mC .pagedTextFiltered > div table.mC_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mC .pagedTextFiltered > div table.mC_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mC .pagedTextFiltered > div table.mC_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mC .pagedTextFiltered > div table.mC_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mC .pagedTextFiltered > div table.mC_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mC .pagedTextFiltered > div table.mC_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mC .pagedTextFiltered > div p.mC_In {
+	margin-bottom: 1em !important;
+}
+.hide-mD span.mD {
+	text-shadow: none;
+}
+.hide-mD a.mD,
+.hide-mD span.mD {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mD a.mD {
+	width: 0 !important;
+	display: none;
+}
+p.mD {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mD .pagedTextFiltered .mD_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mD .pagedTextFiltered table.mD_In,
+.hide-mD .pagedTextFiltered table.mD_In td {
+	border: unset;
+}
+.expand-mD .pagedTextFiltered > div .mD_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mD .pagedTextFiltered > div table.mD_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mD .pagedTextFiltered > div table.mD_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mD .pagedTextFiltered > div table.mD_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mD .pagedTextFiltered > div table.mD_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mD .pagedTextFiltered > div table.mD_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mD .pagedTextFiltered > div table.mD_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mD .pagedTextFiltered > div table.mD_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mD .pagedTextFiltered > div p.mD_In {
+	margin-bottom: 1em !important;
+}
+.hide-mE span.mE {
+	text-shadow: none;
+}
+.hide-mE a.mE,
+.hide-mE span.mE {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mE a.mE {
+	width: 0 !important;
+	display: none;
+}
+p.mE {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mE .pagedTextFiltered .mE_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mE .pagedTextFiltered table.mE_In,
+.hide-mE .pagedTextFiltered table.mE_In td {
+	border: unset;
+}
+.expand-mE .pagedTextFiltered > div .mE_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mE .pagedTextFiltered > div table.mE_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mE .pagedTextFiltered > div table.mE_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mE .pagedTextFiltered > div table.mE_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mE .pagedTextFiltered > div table.mE_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mE .pagedTextFiltered > div table.mE_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mE .pagedTextFiltered > div table.mE_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mE .pagedTextFiltered > div table.mE_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mE .pagedTextFiltered > div p.mE_In {
+	margin-bottom: 1em !important;
+}
+.hide-mF span.mF {
+	text-shadow: none;
+}
+.hide-mF a.mF,
+.hide-mF span.mF {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mF a.mF {
+	width: 0 !important;
+	display: none;
+}
+p.mF {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mF .pagedTextFiltered .mF_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mF .pagedTextFiltered table.mF_In,
+.hide-mF .pagedTextFiltered table.mF_In td {
+	border: unset;
+}
+.expand-mF .pagedTextFiltered > div .mF_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mF .pagedTextFiltered > div table.mF_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mF .pagedTextFiltered > div table.mF_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mF .pagedTextFiltered > div table.mF_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mF .pagedTextFiltered > div table.mF_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mF .pagedTextFiltered > div table.mF_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mF .pagedTextFiltered > div table.mF_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mF .pagedTextFiltered > div table.mF_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mF .pagedTextFiltered > div p.mF_In {
+	margin-bottom: 1em !important;
+}
+.hide-mG span.mG {
+	text-shadow: none;
+}
+.hide-mG a.mG,
+.hide-mG span.mG {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mG a.mG {
+	width: 0 !important;
+	display: none;
+}
+p.mG {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mG .pagedTextFiltered .mG_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mG .pagedTextFiltered table.mG_In,
+.hide-mG .pagedTextFiltered table.mG_In td {
+	border: unset;
+}
+.expand-mG .pagedTextFiltered > div .mG_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mG .pagedTextFiltered > div table.mG_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mG .pagedTextFiltered > div table.mG_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mG .pagedTextFiltered > div table.mG_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mG .pagedTextFiltered > div table.mG_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mG .pagedTextFiltered > div table.mG_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mG .pagedTextFiltered > div table.mG_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mG .pagedTextFiltered > div table.mG_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mG .pagedTextFiltered > div p.mG_In {
+	margin-bottom: 1em !important;
+}
+.hide-mH span.mH {
+	text-shadow: none;
+}
+.hide-mH a.mH,
+.hide-mH span.mH {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mH a.mH {
+	width: 0 !important;
+	display: none;
+}
+p.mH {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mH .pagedTextFiltered .mH_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mH .pagedTextFiltered table.mH_In,
+.hide-mH .pagedTextFiltered table.mH_In td {
+	border: unset;
+}
+.expand-mH .pagedTextFiltered > div .mH_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mH .pagedTextFiltered > div table.mH_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mH .pagedTextFiltered > div table.mH_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mH .pagedTextFiltered > div table.mH_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mH .pagedTextFiltered > div table.mH_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mH .pagedTextFiltered > div table.mH_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mH .pagedTextFiltered > div table.mH_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mH .pagedTextFiltered > div table.mH_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mH .pagedTextFiltered > div p.mH_In {
+	margin-bottom: 1em !important;
+}
+.hide-mI span.mI {
+	text-shadow: none;
+}
+.hide-mI a.mI,
+.hide-mI span.mI {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mI a.mI {
+	width: 0 !important;
+	display: none;
+}
+p.mI {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mI .pagedTextFiltered .mI_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mI .pagedTextFiltered table.mI_In,
+.hide-mI .pagedTextFiltered table.mI_In td {
+	border: unset;
+}
+.expand-mI .pagedTextFiltered > div .mI_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mI .pagedTextFiltered > div table.mI_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mI .pagedTextFiltered > div table.mI_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mI .pagedTextFiltered > div table.mI_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mI .pagedTextFiltered > div table.mI_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mI .pagedTextFiltered > div table.mI_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mI .pagedTextFiltered > div table.mI_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mI .pagedTextFiltered > div table.mI_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mI .pagedTextFiltered > div p.mI_In {
+	margin-bottom: 1em !important;
+}
+.hide-mJ span.mJ {
+	text-shadow: none;
+}
+.hide-mJ a.mJ,
+.hide-mJ span.mJ {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mJ a.mJ {
+	width: 0 !important;
+	display: none;
+}
+p.mJ {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mJ .pagedTextFiltered .mJ_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mJ .pagedTextFiltered table.mJ_In,
+.hide-mJ .pagedTextFiltered table.mJ_In td {
+	border: unset;
+}
+.expand-mJ .pagedTextFiltered > div .mJ_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mJ .pagedTextFiltered > div table.mJ_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mJ .pagedTextFiltered > div table.mJ_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mJ .pagedTextFiltered > div table.mJ_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mJ .pagedTextFiltered > div table.mJ_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mJ .pagedTextFiltered > div table.mJ_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mJ .pagedTextFiltered > div table.mJ_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mJ .pagedTextFiltered > div table.mJ_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mJ .pagedTextFiltered > div p.mJ_In {
+	margin-bottom: 1em !important;
+}
+.hide-mK span.mK {
+	text-shadow: none;
+}
+.hide-mK a.mK,
+.hide-mK span.mK {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mK a.mK {
+	width: 0 !important;
+	display: none;
+}
+p.mK {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mK .pagedTextFiltered .mK_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mK .pagedTextFiltered table.mK_In,
+.hide-mK .pagedTextFiltered table.mK_In td {
+	border: unset;
+}
+.expand-mK .pagedTextFiltered > div .mK_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mK .pagedTextFiltered > div table.mK_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mK .pagedTextFiltered > div table.mK_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mK .pagedTextFiltered > div table.mK_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mK .pagedTextFiltered > div table.mK_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mK .pagedTextFiltered > div table.mK_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mK .pagedTextFiltered > div table.mK_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mK .pagedTextFiltered > div table.mK_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mK .pagedTextFiltered > div p.mK_In {
+	margin-bottom: 1em !important;
+}
+.hide-mL span.mL {
+	text-shadow: none;
+}
+.hide-mL a.mL,
+.hide-mL span.mL {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mL a.mL {
+	width: 0 !important;
+	display: none;
+}
+p.mL {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mL .pagedTextFiltered .mL_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mL .pagedTextFiltered table.mL_In,
+.hide-mL .pagedTextFiltered table.mL_In td {
+	border: unset;
+}
+.expand-mL .pagedTextFiltered > div .mL_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mL .pagedTextFiltered > div table.mL_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mL .pagedTextFiltered > div table.mL_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mL .pagedTextFiltered > div table.mL_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mL .pagedTextFiltered > div table.mL_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mL .pagedTextFiltered > div table.mL_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mL .pagedTextFiltered > div table.mL_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mL .pagedTextFiltered > div table.mL_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mL .pagedTextFiltered > div p.mL_In {
+	margin-bottom: 1em !important;
+}
+.hide-mM span.mM {
+	text-shadow: none;
+}
+.hide-mM a.mM,
+.hide-mM span.mM {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mM a.mM {
+	width: 0 !important;
+	display: none;
+}
+p.mM {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mM .pagedTextFiltered .mM_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mM .pagedTextFiltered table.mM_In,
+.hide-mM .pagedTextFiltered table.mM_In td {
+	border: unset;
+}
+.expand-mM .pagedTextFiltered > div .mM_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mM .pagedTextFiltered > div table.mM_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mM .pagedTextFiltered > div table.mM_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mM .pagedTextFiltered > div table.mM_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mM .pagedTextFiltered > div table.mM_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mM .pagedTextFiltered > div table.mM_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mM .pagedTextFiltered > div table.mM_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mM .pagedTextFiltered > div table.mM_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mM .pagedTextFiltered > div p.mM_In {
+	margin-bottom: 1em !important;
+}
+.hide-mN span.mN {
+	text-shadow: none;
+}
+.hide-mN a.mN,
+.hide-mN span.mN {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mN a.mN {
+	width: 0 !important;
+	display: none;
+}
+p.mN {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mN .pagedTextFiltered .mN_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mN .pagedTextFiltered table.mN_In,
+.hide-mN .pagedTextFiltered table.mN_In td {
+	border: unset;
+}
+.expand-mN .pagedTextFiltered > div .mN_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mN .pagedTextFiltered > div table.mN_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mN .pagedTextFiltered > div table.mN_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mN .pagedTextFiltered > div table.mN_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mN .pagedTextFiltered > div table.mN_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mN .pagedTextFiltered > div table.mN_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mN .pagedTextFiltered > div table.mN_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mN .pagedTextFiltered > div table.mN_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mN .pagedTextFiltered > div p.mN_In {
+	margin-bottom: 1em !important;
+}
+.hide-mO span.mO {
+	text-shadow: none;
+}
+.hide-mO a.mO,
+.hide-mO span.mO {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mO a.mO {
+	width: 0 !important;
+	display: none;
+}
+p.mO {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mO .pagedTextFiltered .mO_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mO .pagedTextFiltered table.mO_In,
+.hide-mO .pagedTextFiltered table.mO_In td {
+	border: unset;
+}
+.expand-mO .pagedTextFiltered > div .mO_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mO .pagedTextFiltered > div table.mO_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mO .pagedTextFiltered > div table.mO_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mO .pagedTextFiltered > div table.mO_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mO .pagedTextFiltered > div table.mO_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mO .pagedTextFiltered > div table.mO_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mO .pagedTextFiltered > div table.mO_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mO .pagedTextFiltered > div table.mO_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mO .pagedTextFiltered > div p.mO_In {
+	margin-bottom: 1em !important;
+}
+.hide-mP span.mP {
+	text-shadow: none;
+}
+.hide-mP a.mP,
+.hide-mP span.mP {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mP a.mP {
+	width: 0 !important;
+	display: none;
+}
+p.mP {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mP .pagedTextFiltered .mP_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mP .pagedTextFiltered table.mP_In,
+.hide-mP .pagedTextFiltered table.mP_In td {
+	border: unset;
+}
+.expand-mP .pagedTextFiltered > div .mP_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mP .pagedTextFiltered > div table.mP_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mP .pagedTextFiltered > div table.mP_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mP .pagedTextFiltered > div table.mP_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mP .pagedTextFiltered > div table.mP_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mP .pagedTextFiltered > div table.mP_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mP .pagedTextFiltered > div table.mP_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mP .pagedTextFiltered > div table.mP_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mP .pagedTextFiltered > div p.mP_In {
+	margin-bottom: 1em !important;
+}
+.hide-mQ span.mQ {
+	text-shadow: none;
+}
+.hide-mQ a.mQ,
+.hide-mQ span.mQ {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mQ a.mQ {
+	width: 0 !important;
+	display: none;
+}
+p.mQ {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mQ .pagedTextFiltered .mQ_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mQ .pagedTextFiltered table.mQ_In,
+.hide-mQ .pagedTextFiltered table.mQ_In td {
+	border: unset;
+}
+.expand-mQ .pagedTextFiltered > div .mQ_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mQ .pagedTextFiltered > div table.mQ_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mQ .pagedTextFiltered > div table.mQ_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mQ .pagedTextFiltered > div table.mQ_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mQ .pagedTextFiltered > div table.mQ_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mQ .pagedTextFiltered > div table.mQ_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mQ .pagedTextFiltered > div table.mQ_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mQ .pagedTextFiltered > div table.mQ_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mQ .pagedTextFiltered > div p.mQ_In {
+	margin-bottom: 1em !important;
+}
+.hide-mR span.mR {
+	text-shadow: none;
+}
+.hide-mR a.mR,
+.hide-mR span.mR {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mR a.mR {
+	width: 0 !important;
+	display: none;
+}
+p.mR {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mR .pagedTextFiltered .mR_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mR .pagedTextFiltered table.mR_In,
+.hide-mR .pagedTextFiltered table.mR_In td {
+	border: unset;
+}
+.expand-mR .pagedTextFiltered > div .mR_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mR .pagedTextFiltered > div table.mR_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mR .pagedTextFiltered > div table.mR_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mR .pagedTextFiltered > div table.mR_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mR .pagedTextFiltered > div table.mR_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mR .pagedTextFiltered > div table.mR_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mR .pagedTextFiltered > div table.mR_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mR .pagedTextFiltered > div table.mR_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mR .pagedTextFiltered > div p.mR_In {
+	margin-bottom: 1em !important;
+}
+.hide-mS span.mS {
+	text-shadow: none;
+}
+.hide-mS a.mS,
+.hide-mS span.mS {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mS a.mS {
+	width: 0 !important;
+	display: none;
+}
+p.mS {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mS .pagedTextFiltered .mS_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mS .pagedTextFiltered table.mS_In,
+.hide-mS .pagedTextFiltered table.mS_In td {
+	border: unset;
+}
+.expand-mS .pagedTextFiltered > div .mS_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mS .pagedTextFiltered > div table.mS_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mS .pagedTextFiltered > div table.mS_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mS .pagedTextFiltered > div table.mS_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mS .pagedTextFiltered > div table.mS_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mS .pagedTextFiltered > div table.mS_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mS .pagedTextFiltered > div table.mS_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mS .pagedTextFiltered > div table.mS_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mS .pagedTextFiltered > div p.mS_In {
+	margin-bottom: 1em !important;
+}
+.hide-mT span.mT {
+	text-shadow: none;
+}
+.hide-mT a.mT,
+.hide-mT span.mT {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mT a.mT {
+	width: 0 !important;
+	display: none;
+}
+p.mT {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mT .pagedTextFiltered .mT_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mT .pagedTextFiltered table.mT_In,
+.hide-mT .pagedTextFiltered table.mT_In td {
+	border: unset;
+}
+.expand-mT .pagedTextFiltered > div .mT_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mT .pagedTextFiltered > div table.mT_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mT .pagedTextFiltered > div table.mT_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mT .pagedTextFiltered > div table.mT_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mT .pagedTextFiltered > div table.mT_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mT .pagedTextFiltered > div table.mT_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mT .pagedTextFiltered > div table.mT_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mT .pagedTextFiltered > div table.mT_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mT .pagedTextFiltered > div p.mT_In {
+	margin-bottom: 1em !important;
+}
+.hide-mU span.mU {
+	text-shadow: none;
+}
+.hide-mU a.mU,
+.hide-mU span.mU {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mU a.mU {
+	width: 0 !important;
+	display: none;
+}
+p.mU {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mU .pagedTextFiltered .mU_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mU .pagedTextFiltered table.mU_In,
+.hide-mU .pagedTextFiltered table.mU_In td {
+	border: unset;
+}
+.expand-mU .pagedTextFiltered > div .mU_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mU .pagedTextFiltered > div table.mU_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mU .pagedTextFiltered > div table.mU_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mU .pagedTextFiltered > div table.mU_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mU .pagedTextFiltered > div table.mU_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mU .pagedTextFiltered > div table.mU_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mU .pagedTextFiltered > div table.mU_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mU .pagedTextFiltered > div table.mU_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mU .pagedTextFiltered > div p.mU_In {
+	margin-bottom: 1em !important;
+}
+.hide-mV span.mV {
+	text-shadow: none;
+}
+.hide-mV a.mV,
+.hide-mV span.mV {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mV a.mV {
+	width: 0 !important;
+	display: none;
+}
+p.mV {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mV .pagedTextFiltered .mV_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mV .pagedTextFiltered table.mV_In,
+.hide-mV .pagedTextFiltered table.mV_In td {
+	border: unset;
+}
+.expand-mV .pagedTextFiltered > div .mV_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mV .pagedTextFiltered > div table.mV_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mV .pagedTextFiltered > div table.mV_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mV .pagedTextFiltered > div table.mV_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mV .pagedTextFiltered > div table.mV_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mV .pagedTextFiltered > div table.mV_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mV .pagedTextFiltered > div table.mV_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mV .pagedTextFiltered > div table.mV_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mV .pagedTextFiltered > div p.mV_In {
+	margin-bottom: 1em !important;
+}
+.hide-mW span.mW {
+	text-shadow: none;
+}
+.hide-mW a.mW,
+.hide-mW span.mW {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mW a.mW {
+	width: 0 !important;
+	display: none;
+}
+p.mW {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mW .pagedTextFiltered .mW_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mW .pagedTextFiltered table.mW_In,
+.hide-mW .pagedTextFiltered table.mW_In td {
+	border: unset;
+}
+.expand-mW .pagedTextFiltered > div .mW_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mW .pagedTextFiltered > div table.mW_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mW .pagedTextFiltered > div table.mW_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mW .pagedTextFiltered > div table.mW_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mW .pagedTextFiltered > div table.mW_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mW .pagedTextFiltered > div table.mW_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mW .pagedTextFiltered > div table.mW_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mW .pagedTextFiltered > div table.mW_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mW .pagedTextFiltered > div p.mW_In {
+	margin-bottom: 1em !important;
+}
+.hide-mX span.mX {
+	text-shadow: none;
+}
+.hide-mX a.mX,
+.hide-mX span.mX {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mX a.mX {
+	width: 0 !important;
+	display: none;
+}
+p.mX {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mX .pagedTextFiltered .mX_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mX .pagedTextFiltered table.mX_In,
+.hide-mX .pagedTextFiltered table.mX_In td {
+	border: unset;
+}
+.expand-mX .pagedTextFiltered > div .mX_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mX .pagedTextFiltered > div table.mX_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mX .pagedTextFiltered > div table.mX_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mX .pagedTextFiltered > div table.mX_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mX .pagedTextFiltered > div table.mX_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mX .pagedTextFiltered > div table.mX_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mX .pagedTextFiltered > div table.mX_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mX .pagedTextFiltered > div table.mX_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mX .pagedTextFiltered > div p.mX_In {
+	margin-bottom: 1em !important;
+}
+.hide-mY span.mY {
+	text-shadow: none;
+}
+.hide-mY a.mY,
+.hide-mY span.mY {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mY a.mY {
+	width: 0 !important;
+	display: none;
+}
+p.mY {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mY .pagedTextFiltered .mY_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mY .pagedTextFiltered table.mY_In,
+.hide-mY .pagedTextFiltered table.mY_In td {
+	border: unset;
+}
+.expand-mY .pagedTextFiltered > div .mY_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mY .pagedTextFiltered > div table.mY_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mY .pagedTextFiltered > div table.mY_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mY .pagedTextFiltered > div table.mY_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mY .pagedTextFiltered > div table.mY_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mY .pagedTextFiltered > div table.mY_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mY .pagedTextFiltered > div table.mY_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mY .pagedTextFiltered > div table.mY_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mY .pagedTextFiltered > div p.mY_In {
+	margin-bottom: 1em !important;
+}
+.hide-mZ span.mZ {
+	text-shadow: none;
+}
+.hide-mZ a.mZ,
+.hide-mZ span.mZ {
+	background: transparent !important;
+	border: transparent !important;
+	color: inherit !important;
+}
+.hide-mZ a.mZ {
+	width: 0 !important;
+	display: none;
+}
+p.mZ {
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+.hide-mZ .pagedTextFiltered .mZ_In {
+	height: 0;
+	visibility: collapse;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+}
+.hide-mZ .pagedTextFiltered table.mZ_In,
+.hide-mZ .pagedTextFiltered table.mZ_In td {
+	border: unset;
+}
+.expand-mZ .pagedTextFiltered > div .mZ_In {
+	height: unset;
+	visibility: unset;
+	margin-bottom: unset;
+	overflow: unset;
+}
+.expand-mZ .pagedTextFiltered > div table.mZ_In * {
+	height: unset !important;
+	visibility: unset !important;
+	margin-bottom: unset !important;
+	overflow: unset !important;
+}
+.expand-mZ .pagedTextFiltered > div table.mZ_In .markersIn.collapsed + .markersIn:not(.collapsed):not(.noBorder),
+.expand-mZ .pagedTextFiltered > div table.mZ_In :not(.markersIn) + .markersIn:not(.collapsed):not(.noBorder) {
+	border-top: unset;
+}
+.expand-mZ .pagedTextFiltered > div table.mZ_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder),
+.expand-mZ .pagedTextFiltered > div table.mZ_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder) {
+	height: unset;
+	position: unset;
+}
+.expand-mZ .pagedTextFiltered > div table.mZ_In .markersIn:not(.collapsed) + .markersIn.collapsed:not(.noBorder):before,
+.expand-mZ .pagedTextFiltered > div table.mZ_In .markersIn:not(.collapsed) + :not(.markersIn):not(.noBorder):before {
+	border-top: unset;
+	visibility: collapse;
+}
+.expand-mZ .pagedTextFiltered > div p.mZ_In {
+	margin-bottom: 1em !important;
+}
+.web-component-container {
+	height: inherit;
+}
+.text-component {
+	padding-right: 20%;
+	height: inherit;
+	text-align: justify;
+	position: relative;
+}
+.text-component .text {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.text-component .text .text-wrapper {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+}
+.text-component .sidebar {
+	position: absolute;
+	width: 20%;
+	float: right;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+}
+.text-component .sidebar .Controls__controls {
+	border-right: 1px solid #ccc;
+}
+.TextHTML__root [data-type='claims'] img,
+.TextHTML__root [data-type='description'] img {
+	display: inline;
+	border: 0;
+	max-height: 100%;
+	max-width: 100%;
+}
+.TextHTML__textContainer > div > div:first-child,
+.TextHTML__textContainer > h3 {
+	margin: 2rem 3rem 0;
+}
+.TextHTML__textContainer div[role='alert'] {
+	margin: 0 3rem 1.5rem !important;
+}
+.TextHTML__extraInfo {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	border-radius: 5px;
+	color: hsla(0, 0%, 74.9%, 0.75);
+}
+.TextHTML__find-similar {
+	display: block;
+	border: 1px solid #00a;
+	background: #f0f8ff;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+.TextHTML__find-similar .TextHTML__buttons {
+	position: absolute;
+	display: none;
+	right: 0;
+	bottom: -25px;
+	z-index: 10;
+}
+.TextHTML__find-similar .TextHTML__buttons div.TextHTML__glyphicon {
+	display: inline;
+}
+.TextHTML__find-similar .TextHTML__buttons .TextHTML__btn:last-child {
+	display: none;
+}
+.TextHTML__find-similar:hover .TextHTML__buttons {
+	display: block;
+}
+.TextHTML__find-similar .TextHTML__quickFindButtonContainer {
+	position: absolute;
+	display: none;
+	right: 0;
+	bottom: -25px;
+	z-index: 10;
+}
+.Sidebar__sidebar {
+	position: relative;
+	min-width: 100%;
+	background-color: #666;
+	text-align: center;
+	height: 100%;
+}
+.Sidebar__sidebar .hlTableWrapper {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+.Sidebar__sidebar .hlTable,
+.Sidebar__sidebar .hlUnderlineTable {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: table;
+	padding: 0;
+	margin: 0;
+}
+.Sidebar__sidebar .hlRow,
+.Sidebar__sidebar .hlUnderlineRow {
+	display: table-row;
+	height: auto;
+	padding: 0 !important;
+	margin: 0;
+}
+.Sidebar__sidebar .hlCellUnderlineContainer {
+	display: table-cell;
+	height: auto;
+	padding: 0 !important;
+	margin: 0;
+	width: 21px;
+	background: transparent !important;
+}
+.Sidebar__sidebar .hlCell,
+.Sidebar__sidebar .hlCellUnderline {
+	display: table-cell;
+	height: auto;
+	padding: 0 !important;
+	margin: 0;
+	border-radius: 0 !important;
+}
+.Sidebar__sidebar .hlCellUnderline {
+	background-color: #aaa;
+	width: 4px;
+}
+.Sidebar__sidebar .hlCellUnderline:last-child {
+	width: auto;
+	background-color: #666 !important;
+}
+.Sidebar__sidebar .hlRow {
+	cursor: pointer;
+}
+.Sidebar__bar > div {
+	position: absolute;
+	top: 36px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	outline: none;
+}
+.Sidebar__bar[data-switch-on='true'] > div {
+	bottom: 21px;
+}
+.HighlightedSidebar__root .HighlightedSidebar__locationMarker {
+	background-color: hsla(0, 0%, 100%, 0.5);
+	border: 1px solid #fff;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+.HighlightedSvgSidebar__sidebar:hover {
+	cursor: pointer;
+}
+.HighlightedSvgSidebar__sidebar.HighlightedSvgSidebar__overlayDragging:hover {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+.HighlightedSvgSidebar__overlay {
+	fill: hsla(0, 0%, 100%, 0.5);
+	stroke-width: 1px;
+	stroke: #fff;
+}
+.HighlightedSvgSidebar__overlay.HighlightedSvgSidebar__adding {
+	fill: hsla(0, 0%, 100%, 0.15);
+	pointer-events: none;
+}
+.HighlightedSvgSidebar__overlay:hover {
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+.HighlightedSvgSidebar__overlay.HighlightedSvgSidebar__dragging:hover {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+.HighlightedSvgSidebar__underlines {
+	fill: #aaa;
+	opacity: 0.5;
+}
+.Controls__controls {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-right: 0;
+	padding: 0.5rem 0.2rem;
+	display: block;
+}
+.Controls__controls > button,
+.Controls__controls > div {
+	display: inline-block;
+}
+.Controls__controls .dropdown-menu,
+.Controls__controls button {
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+	border-radius: 0 !important;
+}
+.Controls__controls .Controls__navButton {
+	min-height: 22px;
+	max-height: 22px;
+	line-height: 22px;
+	padding: 0;
+	width: 25px;
+	font-size: 13px;
+	background-color: #fff !important;
+	font-family: Arial, sans-serif;
+	color: #327ab7;
+}
+.Controls__controls .Controls__navButton:hover {
+	color: #23527c;
+}
+/*# sourceMappingURL=index.css.map */

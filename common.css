@@ -1,0 +1,205 @@
+.SelectionMenu__root [data-type='claims'] img,
+.SelectionMenu__root [data-type='description'] img {
+	display: inline;
+	border: 0;
+	max-height: 100%;
+	max-width: 100%;
+}
+.SelectionMenu__find-similar,
+.SelectionMenu__find-similar-applier {
+	display: inline-block;
+	border-radius: 0 !important;
+	border: 1px solid #00a;
+	background: #f0f8ff;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+.SelectionMenu__find-similar-applier .SelectionMenu__buttons,
+.SelectionMenu__find-similar .SelectionMenu__buttons {
+	position: absolute;
+	display: none;
+	right: 0;
+	bottom: -30px;
+	z-index: 10;
+}
+.SelectionMenu__find-similar-applier .SelectionMenu__buttons .SelectionMenu__btn,
+.SelectionMenu__find-similar .SelectionMenu__buttons .SelectionMenu__btn {
+	background-color: #49afcd !important;
+	color: #fff;
+	border: 1px solid #00a;
+}
+.SelectionMenu__find-similar-applier .SelectionMenu__buttons .SelectionMenu__btn:hover,
+.SelectionMenu__find-similar .SelectionMenu__buttons .SelectionMenu__btn:hover {
+	background-color: #2f96b4 !important;
+}
+.SelectionMenu__find-similar-applier .SelectionMenu__buttons div.SelectionMenu__glyphicon,
+.SelectionMenu__find-similar .SelectionMenu__buttons div.SelectionMenu__glyphicon {
+	display: inline;
+}
+.SelectionMenu__find-similar-applier:hover .SelectionMenu__buttons,
+.SelectionMenu__find-similar:hover .SelectionMenu__buttons {
+	display: block;
+}
+.SelectionMenu__find-similar-applier .SelectionMenu__quickFindButtonContainer,
+.SelectionMenu__find-similar .SelectionMenu__quickFindButtonContainer {
+	position: absolute;
+	display: none;
+	right: 0;
+	bottom: -25px;
+	z-index: 10;
+}
+.SelectionMenu__subMenu,
+.SelectionMenu__subMenuForUnderlines {
+	min-width: 50px !important;
+	margin-left: 30px;
+}
+.SelectionMenu__subMenuOnLeft {
+	margin-left: 0 !important;
+}
+.SelectionMenu__subMenu > li > a {
+	padding-right: 10px !important;
+}
+.SelectionMenu__subMenu > li > a > small {
+	padding-right: 2px !important;
+}
+.SelectionMenu__menuItemIcon {
+	color: green !important;
+	font-size: 90%;
+}
+.SelectionMenu__menu {
+	color: red !important;
+}
+.SelectionMenu__menu > div {
+	white-space: nowrap !important;
+}
+.SelectionMenu__subMenuHighlight > li > a > span {
+	border-radius: 12px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	text-transform: lowercase;
+	line-height: 24px;
+	text-align: center;
+}
+.Spinner__spinner {
+	position: absolute !important;
+	top: 40%;
+	left: 50%;
+	margin-left: -1rem;
+	margin-top: -1rem;
+	z-index: 400;
+}
+.TextSwitch__root {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 21px;
+}
+.TextSwitch__root button {
+	position: absolute;
+	top: 0;
+	background-color: #c9c9c9;
+	color: #333;
+	width: 50%;
+	border: 1px solid #000;
+	border-right: 0;
+	font-size: 12px;
+}
+.TextSwitch__root button:first-child {
+	left: 0;
+}
+.TextSwitch__root button:last-child {
+	right: 0;
+}
+.TextSwitch__root button.TextSwitch__active {
+	font-weight: 700;
+	background-color: #dedede;
+	color: #000;
+}
+.HighlightDropdown__root {
+	margin-right: 2px;
+}
+.HighlightDropdown__root .dropdown {
+	top: -1px;
+}
+.HighlightDropdown__root .dropdown > .dropdown-menu {
+	margin-top: 0;
+	border-radius: 0;
+}
+.HighlightDropdown__root .dropdown > .dropdown-menu a {
+	padding: 3px;
+}
+.HighlightDropdown__root .dropdown > .dropdown-toggle.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #d7d7d7;
+	border-radius: 0;
+	box-shadow: unset !important;
+}
+.HighlightDropdown__root ul {
+	min-width: auto;
+}
+.HighlightDropdown__root .HighlightDropdown__funnel {
+	margin-top: 3px;
+}
+.HighlightDropdown__item {
+	display: flex;
+	padding: 0.1rem 0.2rem;
+	margin: 0;
+	font-weight: 400;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+.HighlightDropdown__item div {
+	margin: 0;
+}
+.HighlightDropdown__item div label {
+	min-height: 15px;
+}
+.ScrollJumpDropdown__root {
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	line-height: 22px;
+	font-size: 13px;
+	border-color: #d7d7d7;
+	border-style: solid;
+	border-width: 1px 0;
+	font-family: Arial, sans-serif;
+}
+.ScrollJumpDropdown__root .dropdown {
+	height: 22px;
+	line-height: 20px;
+}
+.ScrollJumpDropdown__root .open > .dropdown-menu {
+	border-radius: 0;
+	margin-top: -1px;
+	width: 31px;
+}
+.ScrollJumpDropdown__root .dropdown-menu > li > a {
+	padding: 0 10px !important;
+	text-align: center !important;
+	border: 0 !important;
+}
+.ScrollJumpDropdown__root .btn-default {
+	min-height: 18px;
+	max-height: 20px;
+	border-width: 0;
+	border-radius: 0;
+	padding: 0 6px;
+	box-shadow: unset !important;
+}
+.ScrollJumpDropdown__root .btn-default.focus,
+.ScrollJumpDropdown__root .btn-default:focus,
+.ScrollJumpDropdown__root .btn-default:hover {
+	color: #333;
+	background-color: #fff;
+	border-color: #d7d7d7;
+}
+.ScrollJumpDropdown__root .btn .caret {
+	margin-left: 2px;
+}
+.ScrollJumpDropdown__root ul {
+	min-width: auto;
+}

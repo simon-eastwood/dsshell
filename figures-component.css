@@ -1,0 +1,860 @@
+.FiguresModule__root {
+	position: relative;
+	height: 100%;
+}
+.FiguresContainer__root svg {
+	float: left;
+	user-select: none;
+}
+.FiguresContainer__root svg text {
+	pointer-events: none;
+}
+.FiguresContainer__root div[role='alert'] {
+	margin: 0 16rem 1.5rem 3rem !important;
+}
+.FiguresContainer__notFound {
+	padding: 20px;
+}
+.MosaicControls__root {
+	height: 34px;
+	border-bottom: 1px solid #ccc;
+	padding: 0.5rem 0.2rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #f9f9f9;
+}
+.MosaicControls__root button {
+	padding: 0;
+	display: block;
+}
+.MosaicControls__root > button,
+.MosaicControls__root > div {
+	display: inline-block;
+}
+.MosaicControls__root > button:first-child,
+.MosaicControls__root > div:first-child {
+	margin-left: 0;
+}
+.MosaicControls__root > button:last-child,
+.MosaicControls__root > div:last-child {
+	margin-right: 0;
+}
+.MosaicControls__root .MosaicControls__navButton {
+	min-height: 22px;
+	max-height: 22px;
+	line-height: 22px;
+	width: 25px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	color: #327ab7;
+	background-color: #fff;
+	border: 1px solid #d7d7d7;
+	border-radius: 0;
+}
+.MosaicControls__root .MosaicControls__navButton:hover {
+	color: #23527c;
+}
+.MosaicControls__mosaic {
+	border-left: 0;
+	width: auto;
+}
+.MosaicControls__item {
+	font-weight: 400;
+	margin: 0 2px;
+	padding-right: 0.25rem;
+	padding-left: 0.25rem;
+	cursor: default;
+	border-radius: 2px;
+	line-height: 20px;
+	height: 20px;
+	border: 1px solid #000;
+	font-size: 1.2rem;
+}
+.MosaicControls__item.MosaicControls__inactiveItem {
+	border: 1px solid transparent;
+	background: transparent !important;
+}
+.MosaicControls__legendIcon {
+	border: 0;
+	height: 18px;
+	line-height: 18px;
+	display: inline;
+}
+.MosaicControls__legend {
+	text-align: right;
+	position: absolute;
+	top: -24px;
+	right: 10px;
+	z-index: 101;
+}
+.AutoFlipSpeedSlider__speedRange > div {
+	display: none;
+	height: 255px;
+	position: absolute;
+	z-index: 4;
+	padding: 0;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top-color: #fff;
+}
+.AutoFlipSpeedSlider__speedRange > div .slider-vertical .slider-handle {
+	background: #888;
+	border: 1px solid #555;
+	border-radius: 0;
+	height: 10px;
+	margin-top: -5px;
+}
+.AutoFlipSpeedSlider__speedRange > div .slider-vertical .slider-handle:hover {
+	background: #bbb;
+	cursor: pointer;
+}
+.AutoFlipSpeedSlider__speedRange > div .slider-vertical .slider-track {
+	width: 1px;
+	margin-top: 0;
+	background: #999;
+	left: 50%;
+	margin-left: -1px;
+}
+.AutoFlipSpeedSlider__speedRange > div .slider-vertical .slider-tick {
+	border-radius: 0;
+	height: 1px;
+	background: #999;
+	margin-top: 0;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.AutoFlipSpeedSlider__speedRange > div .slider-vertical .slider-selection.tick-slider-selection {
+	background: transparent;
+}
+.AutoFlipSpeedSlider__speedRange > button {
+	border-radius: 0;
+}
+.AutoFlipSpeedSlider__speedRange:hover > div {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.AutoFlipSpeedSlider__speedRangeValue {
+	min-width: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	font-size: 10px;
+	top: 0;
+	text-align: center;
+}
+.AutoFlipSpeedSlider__awesomeIcons {
+	font-size: 18px;
+	color: #555;
+}
+.AutoFlipSpeedSlider__labels {
+	font-size: 10px;
+	color: #999;
+	display: block;
+	height: 22px;
+	line-height: 17px;
+}
+.AutoFlipSpeedSlider__labels:last-child {
+	line-height: 24px;
+}
+.FiguresControls__root {
+	z-index: 3;
+	background: #f9f9f9;
+	border-bottom: 1px solid #ccc;
+	line-height: 28px;
+	padding-right: 80px;
+}
+.FiguresControls__root button {
+	border-radius: 0;
+	border-bottom: 0;
+	padding-left: 8px;
+	padding-right: 8px;
+	min-width: 34px;
+	height: 33px;
+}
+.FiguresControls__root .btn {
+	border-top: 1px solid transparent;
+	background: #f9f9f9;
+	outline: none !important;
+	padding-bottom: 5px;
+}
+.FiguresControls__root .btn-primary {
+	background: #666;
+}
+.FiguresControls__root .btn-primary > span {
+	color: #62aac2;
+}
+.FiguresControls__mode {
+	margin: 0 20px;
+	display: inline-block;
+}
+.FiguresControls__mode .slider.slider-horizontal {
+	width: 104px;
+}
+.FiguresControls__mode .slider.slider-horizontal .slider-handle {
+	background: #888;
+	border: 1px solid #555;
+	border-radius: 0;
+	width: 10px;
+	margin-left: -5px;
+}
+.FiguresControls__mode .slider.slider-horizontal .slider-handle:hover {
+	background: #bbb;
+	cursor: pointer;
+}
+.FiguresControls__mode .slider.slider-horizontal .slider-track {
+	height: 1px;
+	margin-top: 0;
+	background: #555;
+}
+.FiguresControls__mode .slider.slider-horizontal .slider-tick {
+	border-radius: 0;
+	width: 1px;
+	background: #555;
+	margin-left: 0;
+}
+.FiguresControls__mode .slider.slider-horizontal .slider-selection.tick-slider-selection {
+	background: transparent;
+}
+.FiguresControls__dropdown {
+	margin-left: -1px;
+	margin-top: 0;
+	border-radius: 0;
+}
+.FiguresControls__markers a:focus {
+	background: transparent !important;
+}
+.FiguresControls__denominator {
+	display: inline-block;
+	position: absolute;
+	right: 2px;
+	font-size: 10px;
+	top: 0;
+	text-align: center;
+}
+.FiguresControls__dropDownButtons .btn {
+	border-left: 0;
+}
+.FiguresControls__dropDownButtons ul.dropdown-menu {
+	width: 40px;
+	min-width: 40px;
+}
+.FiguresControls__dropDownButtons ul.dropdown-menu li a {
+	padding-left: 9px;
+	padding-right: 9px;
+	text-align: center;
+}
+.FiguresControls__icon,
+.FiguresControls__iconFigureControls,
+.FiguresControls__iconFigureInfo {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: ribbonicons;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.FiguresControls__iconFigureControls {
+	margin-top: -2px;
+}
+.FiguresControls__iconFigureControls:before {
+	content: '\1f304';
+}
+.FiguresControls__iconFigureInfo:before {
+	content: '\f129';
+}
+.FiguresControls__awesomeIcons {
+	font-size: 18px;
+	color: #555;
+}
+.FiguresControls__searchSelection {
+	display: block;
+	height: 16px;
+	width: 16px;
+	float: none !important;
+	margin: 2px auto;
+}
+.FiguresControls__modeButtonsLeft svg,
+.FiguresControls__modeButtonsRight svg,
+.FiguresControls__modeButtons svg {
+	display: block;
+	height: 15px;
+	width: 15px;
+	float: none !important;
+	margin: 3px auto 2px;
+}
+.FiguresControls__modeButtonsLeft {
+	border-left: 0;
+	border-right: 0;
+	margin-right: -12px;
+}
+.FiguresControls__modeButtonsRight {
+	border-left: 0;
+	margin-left: -12px;
+}
+.FiguresControls__modesWrap {
+	display: inline-block;
+}
+.FigureSearchToolBar__figureSearchButton,
+.FigureSearchToolBar__figureSearchCloseButton {
+	fill: #00801e;
+	cursor: pointer;
+}
+.FigureSearchToolBar__figureSearchButtonText {
+	fill: #fff;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	pointer-events: none;
+}
+.FigureSearchToolBar__figureSearchClose {
+	stroke: #fff;
+	fill: transparent;
+	stroke-linecap: round;
+	stroke-width: 2;
+	cursor: pointer;
+	pointer-events: none;
+}
+.FigureSearchToolBar__resizableBR,
+.FigureSearchToolBar__resizableTL {
+	cursor: nw-resize;
+	fill: #00801e;
+}
+.FigureSearchToolBar__resizableBL,
+.FigureSearchToolBar__resizableTR {
+	cursor: ne-resize;
+	fill: #00801e;
+}
+.figure-marker {
+	cursor: move;
+}
+.FigureToolTip__root {
+	position: fixed;
+	padding: 5px;
+	border: 1px solid #61b3ff;
+	max-width: 180px;
+	min-width: 140px;
+	color: #425060;
+	border-radius: 2px;
+	background-color: #c6e4ff;
+	text-align: left;
+	transform: translate(-50%);
+	margin-bottom: 10px;
+	z-index: 1000;
+}
+.FigureToolTip__root:after {
+	content: '';
+	position: absolute;
+	bottom: -12px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #61b3ff;
+	left: -12px;
+	margin-left: 50%;
+}
+.FigureToolTip__root.FigureToolTip__hide {
+	transform: translate(-10000px);
+}
+.FigureToolTip__root.FigureToolTip__bottom {
+	margin-bottom: -12px;
+}
+.FigureToolTip__root.FigureToolTip__bottom:after {
+	top: -12px;
+	bottom: inherit;
+	border-bottom: 12px solid #61b3ff;
+	border-top: 0;
+}
+.FigureAnnotations__root {
+	position: absolute;
+	left: 0;
+	top: 0;
+	user-select: none;
+}
+.FigureAnnotations__root .FigureAnnotations__boxes {
+	cursor: pointer;
+	fill: #00f;
+	fill-opacity: 0.25;
+}
+.MarkersSVG__root {
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+}
+.MarkersSVG__root rect {
+	fill-opacity: 0.65;
+	cursor: move;
+}
+.MarkersSVG__root text {
+	fill-opacity: 0.85;
+	stroke: none;
+	font-family: sans-serif;
+}
+.MarkersSVG__root .deletion {
+	cursor: pointer;
+	pointer-events: none;
+}
+.MarkersSVG__root .deletion-group,
+.MarkersSVG__root .deletion-group rect {
+	cursor: pointer;
+}
+.Figure__root {
+	position: relative;
+	overflow: hidden;
+	user-select: text;
+}
+.Figure__background {
+	user-select: none;
+}
+.Figure__image {
+	pointer-events: none;
+}
+.Figure__annotations,
+.Figure__image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	user-select: none;
+}
+.Figure__annotations > rect {
+	cursor: pointer;
+}
+.Figure__annotations use {
+	cursor: move;
+}
+.Figure__annotations path.Figure__boxes {
+	cursor: pointer;
+}
+.Figure__scale {
+	transform-origin: 0 0;
+}
+.Figure__selectionZoom {
+	pointer-events: none;
+	fill: #22c;
+	fill-opacity: 0.15;
+	stroke: #22c;
+	stroke-width: 0.5;
+}
+.Figure__selectionSearch {
+	fill: #00801e;
+	fill-opacity: 0.15;
+	stroke: #00801e;
+	stroke-width: 0.5;
+	cursor: move;
+}
+.Figure__disableMarkers path,
+.Figure__disableMarkers rect,
+.Figure__disableMarkers use {
+	pointer-events: none;
+}
+.Figure__selectionMove {
+	cursor: move;
+}
+.Figure__imgRoot {
+	position: absolute;
+	overflow: hidden;
+}
+.Figure__searchSelection {
+	cursor: crosshair !important;
+}
+.Figure__deleteMarkers use {
+	cursor: pointer;
+}
+.Figure__loadingErrorContainer,
+.Figure__loadingErrorContainer svg {
+	pointer-events: none;
+}
+.Figure__loadingError {
+	text-align: center;
+	display: block;
+	font-style: italic;
+}
+.Figure__loadingErrorContainer .Figure__imgRoot {
+	display: table;
+}
+.Figure__loadingErrorContainer .Figure__loadingError {
+	display: table-cell;
+	vertical-align: middle;
+}
+.FigureLegend__root {
+	position: absolute;
+	z-index: 1;
+	font-family: Verdana;
+	pointer-events: none;
+	color: #000 !important;
+}
+.FigureLegend__root .active {
+	width: 100%;
+	height: 100%;
+}
+.FigureLegend__root > div {
+	pointer-events: all;
+	overflow: visible;
+}
+.FigureLegend__root table {
+	border: 0 !important;
+	margin-bottom: 0;
+	font-size: 0.9em;
+}
+.FigureLegend__root table td {
+	padding: 0.25rem !important;
+	vertical-align: top !important;
+	line-height: 1.43 !important;
+	border: 0 !important;
+}
+.FigureLegend__root table td:first-child {
+	width: 15px;
+	padding: 0.12rem 0.25rem !important;
+	font-style: normal;
+}
+.FigureLegend__root .panel {
+	width: 99%;
+	height: 99%;
+}
+.FigureLegend__root .panel-body-wrapper {
+	height: 100%;
+	overflow-y: auto;
+	border-bottom: 36px solid transparent;
+	cursor: text;
+}
+.FigureLegend__root .panel-body {
+	user-select: text;
+}
+.FigureLegend__root .panel-heading h4 {
+	cursor: move;
+	margin: 0 !important;
+	font-size: 13px !important;
+}
+.FigureLegend__root .panel-heading span {
+	margin-top: -14px;
+	font-size: 15px;
+	margin-right: -6px;
+	cursor: pointer;
+}
+.FigureLegend__legendRow span {
+	border-radius: 0.75rem;
+	padding: 0.2rem 0.4rem;
+}
+.FigureLegend__legendBody {
+	padding-bottom: 5px;
+}
+.FigureLegend__legendBody .panel-body {
+	padding: 10px;
+	overflow-y: auto;
+	height: 100%;
+	font-size: 16px;
+}
+.FigureLegend__legendBody .panel-body span {
+	padding: 0 2px !important;
+	border-radius: 6px;
+}
+.react-draggable > div > div:nth-child(7) {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAQAAAC1QeVaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAA9SURBVBjTY2CgKpCXVPrPwMDAwIRNivnZXymcuuQlyZXCYifErofPsdiJrAvNYBKkYHbikILrhjHRaQIAALxvI1cPL7EOAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA1LTE3VDA5OjQwOjQyKzAyOjAw1eVxMQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wNS0xN1QwOTo0MDo0MiswMjowMKS4yY0AAAAASUVORK5CYII=')
+		no-repeat 0 0;
+	right: 0 !important;
+	bottom: 0 !important;
+}
+.FigureViewCounter__root {
+	left: 40px;
+	bottom: 10px;
+	display: none;
+	position: absolute;
+	font-size: 40px;
+	color: rgba(77, 157, 231, 0.3);
+	text-shadow: 1px 1px 2px #999;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+.FigureViewCounter__active {
+	display: block;
+}
+.FigureView__root {
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.FigureView__noMatches {
+	padding: 20px;
+}
+.Magnifier__root {
+	position: absolute;
+	z-index: 25;
+	background: #fff;
+	background: transparent;
+}
+.Magnifier__glass {
+	outline: 2px solid #52a8ec;
+	box-shadow: 1px 1px 3px rgba(82, 168, 236, 0.6);
+	display: block;
+	position: absolute;
+	pointer-events: none;
+}
+.Magnifier__zoomed {
+	background: #fff;
+	display: block;
+	overflow: hidden;
+}
+.Magnifier__zoomedContainer {
+	outline: 2px solid #52a8ec;
+	box-shadow: 1px 1px 3px rgba(82, 168, 236, 0.6);
+	position: absolute;
+	top: 0;
+	background: #fff;
+	overflow: hidden;
+}
+.Magnifier__arrow,
+.Magnifier__arrowBottom,
+.Magnifier__arrowLeft,
+.Magnifier__arrowRight,
+.Magnifier__arrowTop {
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -10px;
+	top: 48%;
+	border: 10px solid rgba(82, 168, 236, 0.9);
+}
+.Magnifier__arrow.Magnifier__left,
+.Magnifier__left.Magnifier__arrowBottom,
+.Magnifier__left.Magnifier__arrowLeft,
+.Magnifier__left.Magnifier__arrowRight,
+.Magnifier__left.Magnifier__arrowTop {
+	border-left: 0;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.Magnifier__arrow.Magnifier__right,
+.Magnifier__right.Magnifier__arrowBottom,
+.Magnifier__right.Magnifier__arrowLeft,
+.Magnifier__right.Magnifier__arrowRight,
+.Magnifier__right.Magnifier__arrowTop {
+	border-right: 0;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.Magnifier__arrow.Magnifier__top,
+.Magnifier__top.Magnifier__arrowBottom,
+.Magnifier__top.Magnifier__arrowLeft,
+.Magnifier__top.Magnifier__arrowRight,
+.Magnifier__top.Magnifier__arrowTop {
+	border-top: 0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.Magnifier__arrow.Magnifier__bottom,
+.Magnifier__bottom.Magnifier__arrowBottom,
+.Magnifier__bottom.Magnifier__arrowLeft,
+.Magnifier__bottom.Magnifier__arrowRight,
+.Magnifier__bottom.Magnifier__arrowTop {
+	border-bottom: 0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.Magnifier__arrowLeft {
+	border-left: 0;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.Magnifier__arrowRight {
+	border-right: 0;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.Magnifier__arrowTop {
+	border-top: 0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.Magnifier__arrowBottom {
+	border-bottom: 0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.MosaicFullScreen__root {
+	position: relative;
+	display: block;
+	height: 100%;
+}
+.MosaicFullScreen__close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: red;
+	cursor: pointer;
+	font-size: 20px;
+}
+.MosaicFullScreen__controls,
+.MosaicFullScreen__next,
+.MosaicFullScreen__prev {
+	position: absolute;
+	color: #d3cea7;
+	font-size: 36px;
+	margin-top: -18px;
+	top: 50%;
+	cursor: pointer;
+}
+.MosaicFullScreen__prev {
+	left: 10px;
+}
+.MosaicFullScreen__next {
+	right: 10px;
+}
+.MosaicView__root {
+	background: #666;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.MosaicView__fullScreen {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #999;
+}
+.MosaicView__mosaic {
+	position: relative;
+	overflow-y: scroll;
+	background: #f9f9f9;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.MosaicView__mosaic > div {
+	display: block;
+	overflow: hidden;
+}
+.MosaicView__mosaic section {
+	position: relative;
+	display: block;
+	float: left;
+	margin-bottom: 4px;
+	padding: 0 2px 0 0;
+}
+.MosaicView__mosaic section > div {
+	display: block;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	outline: 1px solid #eaeaea;
+	overflow: hidden;
+}
+.MosaicView__mosaic section > span {
+	display: none;
+}
+.MosaicView__mosaic section:hover .MosaicView__fullScreen {
+	display: block;
+}
+.MosaicView__mosaic section:hover .MosaicView__fullScreen:hover {
+	color: #000;
+	cursor: pointer;
+}
+.MosaicView__thumbs {
+	position: absolute;
+	right: 0;
+	width: 134px !important;
+	top: 34px;
+	bottom: 0;
+	background: #666;
+	overflow-y: scroll;
+	padding: 0;
+}
+.MosaicView__thumbs > div {
+	display: block;
+	margin-bottom: -8px;
+}
+.MosaicView__thumbs > div:first-child {
+	margin-top: 0;
+}
+.MosaicView__thumbs section {
+	position: relative;
+	display: block;
+	margin: 9px auto;
+	cursor: pointer;
+	background-color: #fff;
+}
+.MosaicView__thumbs section svg,
+.MosaicView__thumbs section svg g {
+	pointer-events: none;
+}
+.MosaicView__thumbs section:hover > span {
+	display: inline-block;
+}
+.MosaicView__thumbs section.active {
+	box-shadow: 0 0 0 9px #ffc120;
+	overflow: hidden;
+}
+.MosaicView__thumbs section > span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 4px;
+	line-height: 17px;
+	text-align: center;
+	display: none;
+	background-color: #fff;
+	color: #666;
+}
+.MosaicView__isEmpty {
+	top: 0;
+}
+.MosaicView__sidebar {
+	background: #fff;
+	padding: 0.5rem;
+	margin: 0 -10px;
+	border: 1px solid #ccc;
+	border-width: 0 0 1px 1px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+.MosaicView__sidebar button {
+	display: inline-block;
+}
+.MosaicView__bns {
+	top: 0;
+}
+.MosaicView__thumbNumber {
+	position: static;
+}
+.MosaicView__magnifier svg g,
+.MosaicView__magnifier svg rect,
+.MosaicView__magnifier svg use {
+	pointer-events: none;
+}
+.FigureAutoFlip__limit {
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 134px);
+}
+.FigureAutoFlip__limit > div {
+	padding: 10px 10px 0;
+}
+.FigureAutoFlip__buttons .FigureAutoFlip__info {
+	background-color: #99d4ec;
+	border: 1px solid #6ca3b8;
+	color: #fff;
+	padding: 8px;
+	margin-right: 5px;
+}
+.FigureAutoFlip__buttons span {
+	display: inline-block;
+	padding: 0 5px;
+}
+.FigureAutoFlip__change {
+	border: 0 !important;
+}
+.FigureAutoFlip__settings {
+	padding: 15px 0 0;
+	text-align: center;
+}
+.FigureAutoFlip__limitValue {
+	display: inline-block;
+	width: 66px;
+	text-align: center;
+	margin-right: 5px;
+}
+/*# sourceMappingURL=figuresWebComponent.css.map */
